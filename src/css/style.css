@@ -1,0 +1,144 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: relative;
+    height: 50px;
+    background-color: #212121;
+}
+
+nav {
+    position: fixed; /* * */
+    width: 100%; /* * */
+    height: 50px;
+    background-color: #212121;
+    z-index: 2; /* * */
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none; /* this will delete these points before  text */
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    min-height: 84px;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);/* This will make only background opacity, and not to an elemnts */
+    
+    
+}
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader .subheader_text {
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 6px;
+    
+}
+
+.subheader_call {
+    margin-top: 19px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.subheader_phone {
+    display: block;
+    margin-top: 6px;
+    color: #ffffff;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 12px;
+
+}
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border-radius: 4px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+/* Section Promo */
+.promo {
+    min-height: 800px;
+    padding: 150px 0 135px 0;
+    background:url("../img/bg_promo.png") center center/cover no-repeat;
+    text-align: center;
+}
+
+.promo .promo_header {
+    
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+    /* Text style for "КОМПАНИЯ U" */
+}
+
+.promo_subheader {
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.promo .promo_descr {
+    
+    color: #ffffff;
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.promo .promo_btn {
+    margin-top: 118px;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    
+    
+}
