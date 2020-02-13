@@ -1,0 +1,122 @@
+@media (min-width: 992px) and (max-width: 1200px)
+    .menu
+        .menu
+            &_item
+                padding-right: 20px
+            &_link
+                font-size: 13px  
+    .promo
+        .promo_header
+            font-size: 50px    
+
+@media (min-width: 768px ) and (max-width: 991px)
+    .menu
+        .menu_item
+            padding-right: 1px
+        .menu_link
+            font-size: 10px    
+    .subheader_phone
+        font-size: 18px
+    .subheader
+        img
+            width: 100%
+        .subheader_text
+            font-size:  11px 
+        .subheader_btn
+            width: 100%
+            margin-top: 25px
+            height: 30px
+            font-size: 13px  
+    .promo
+        .promo_header
+            font-size: 40px  
+        .promo_subheader
+            font-size: 29px
+        .promo_btn
+            width: 180px
+            height: 42px   
+            font-size: 14px   
+    .reason
+        .reason_text
+               font-size: 10px
+               line-height: 14px  
+        .reason_header_blue
+                     font-size: 12px
+                     line-height: 15px    
+
+@media (min-width: 576px ) and (max-width: 767px)
+    .menu
+        position: fixed
+        top: 0
+        right: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        flex-direction: column
+        background-color: rgba(0, 0, 0, .8)
+        justify-content: center
+        align-items: center
+        transition: 0.6s all
+        &_active
+            left: 0%
+        .menu_item
+            margin: 15px 0
+    .reason
+        .reason_content
+            display: flex
+            flex-direction: column  
+            .reason_img
+                padding-bottom: 30px   
+    
+    
+       
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)   
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 4px 
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: rotate(45deg)
+
+    .uber_car
+        
+        width: 500px
+        height: 300px                  
+    
+
+    .xs-hidden
+        display: none    
+    .xs-visible
+        display: block        
+    .subheader_text
+        display: none
+    
+    .subheader
+        .subheader_btn
+            display: block
+            position: absolute
+            right: 10px
+            height: 36px
+        .subheader_phone
+            display: block
+            margin-right: 15px
+            font-size: 19px
+    
