@@ -1,3 +1,9 @@
+@media (min-width: 1201px)
+    .footer_mobile
+        display: flex
+        img
+            padding: 5px
+    
 @media (min-width: 992px) and (max-width: 1200px)
     .menu
         .menu
@@ -7,7 +13,14 @@
                 font-size: 13px  
     .promo
         .promo_header
-            font-size: 50px    
+            font-size: 50px   
+    .footer_mobile
+        display: flex
+        justify-content: flex-end
+        img
+            width: 80%
+            height: auto         
+            
 
 @media (min-width: 768px ) and (max-width: 991px)
     .menu
@@ -84,7 +97,16 @@
     .footer_mobile
         width: 100%
         a 
-            margin: 4px                 
+            margin: 4px 
+        
+            
+        img 
+            
+            width: 100%
+            height: auto  
+        a:nth-child(1)
+            padding-left: 10px       
+                       
 
 @media (min-width: 320px ) and (max-width: 767px)
     .menu
@@ -124,7 +146,7 @@
     .hamburger
         display: block
         position: absolute
-        right: 10px
+        right: 50px
         top: 50%
         transform: translateY(-50%)   
         width: 26px
@@ -256,7 +278,7 @@
     .hidden_320
         display: none
     .hamburger
-        right: 10px
+        right: 35px
     nav
         height: 33px  
     header
@@ -429,5 +451,10 @@
         width: 100%
         a 
             margin: 4px
+            width: 83%
+        img 
+            
+            width: 83%
+            height: auto
 
                                        
